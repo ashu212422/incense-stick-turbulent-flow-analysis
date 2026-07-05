@@ -26,7 +26,7 @@ The workflow performs probe-based velocity extraction, turbulence statistics, Re
 * results/figures - saved analysis plots
 * results/gifs - flow and plume animations
 * results/data - numerical CSV and MATLAB outputs
-* results/RUN\_SUMMARY.txt - analysis summary and assumptions
+* results/RUN_SUMMARY.txt - analysis summary and assumptions
 
 ## Requirements
 
@@ -53,7 +53,7 @@ The raw video is not included in this repository because of file-size considerat
 
 Physical velocity and turbulence quantities depend on the pixel-to-length calibration and the sampled-frame time interval. Without physical calibration, the optical-flow results should be interpreted in pixel-based units.
 
-\## Representative Results
+## Representative Results
 
 
 
@@ -61,110 +61,111 @@ The following figures and animations were generated automatically by the MATLAB 
 
 
 
-\### Probe Locations
+### Probe Locations
 
 
 
-!\[Probe locations](results/figures/01\_probe\_locations.png)
+![Probe locations](results/figures/01_probe_locations.png)
 
 
 
-\### Probe Velocity Time Series
+### Probe Velocity Time Series
 
 
 
-!\[Probe velocity time series](results/figures/02\_probe\_velocity\_time\_series.png)
+![Probe velocity time series](results/figures/02_probe_velocity_time_series.png)
 
 
 
-\### Turbulence Intensity and Turbulent Kinetic Energy
+### Turbulence Intensity and Turbulent Kinetic Energy
 
 
 
-!\[Turbulence intensity and TKE](results/figures/04\_rms\_tke\_turbulence\_intensity.png)
+![Turbulence intensity and TKE](results/figures/04_rms_tke_turbulence_intensity.png)
 
 
 
-\### Reynolds Stresses
+### Reynolds Stresses
 
 
 
-!\[Reynolds stresses](results/figures/05\_reynolds\_stresses.png)
+![Reynolds stresses](results/figures/05_reynolds_stresses.png)
 
 
 
-\### Power Spectral Density
+### Power Spectral Density
 
 
 
-!\[Power spectral density](results/figures/10\_power\_spectral\_density.png)
+![Power spectral density](results/figures/10_power_spectral_density.png)
 
 
 
-\### Mean Flow, TKE and Vorticity Fields
+### Mean Flow, TKE and Vorticity Fields
 
 
 
-!\[Mean flow and vorticity](results/figures/12\_mean\_flow\_tke\_vorticity\_fields.png)
+![Mean flow and vorticity](results/figures/12_mean_flow_tke_vorticity_fields.png)
 
 
 
-\### Vorticity RMS and Pseudo-Dissipation
+### Vorticity RMS and Pseudo-Dissipation
 
 
 
-!\[Vorticity RMS](results/figures/13\_vorticity\_rms\_pseudo\_dissipation.png)
+![Vorticity RMS](results/figures/13_vorticity_rms_pseudo_dissipation.png)
 
 
 
-\### Plume Width and Spreading
+### Plume Width and Spreading
 
 
 
-!\[Plume width](results/figures/14\_plume\_width\_and\_spreading.png)
+![Plume width](results/figures/14_plume_width_and_spreading.png)
 
 
 
-\### Dimensionless-Number Analysis
+### Dimensionless-Number Analysis
 
 
 
-!\[Dimensionless numbers](results/figures/16\_dimensionless\_numbers.png)
+![Dimensionless numbers](results/figures/16_dimensionless_numbers.png)
 
 
 
-\## Animations
+## Animations
 
 
 
-\### Flow and Vorticity Evolution
+### Flow and Vorticity Evolution
 
 
 
-!\[Flow and vorticity animation](results/gifs/flow\_vorticity\_diagnostics.gif)
+![Flow and vorticity animation](results/gifs/flow_vorticity_diagnostics.gif)
 
 
 
-\### Plume-Width Evolution
+### Plume-Width Evolution
 
 
 
-!\[Plume-width animation](results/gifs/plume\_width\_evolution.gif)
+![Plume-width animation](results/gifs/plume_width_evolution.gif)
 
 
 
-\## Numerical Data
+## Numerical Data
 
 
 
-The corresponding numerical outputs are available in the \[`results/data`](results/data) directory.
+The corresponding numerical outputs are available in the [`results/data`](results/data) directory.
 
 
 
-The complete run settings, assumptions, calibration information, and output summary are available in \[`RUN\_SUMMARY.txt`](results/RUN\_SUMMARY.txt).
+The complete run settings, assumptions, calibration information, and output summary are available in [`RUN_SUMMARY.txt`](results/RUN_SUMMARY.txt).
 
 ## Author
 
 Ashok Choudhary
 M.S. Research Scholar, IIT Madras
+
 
