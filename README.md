@@ -8,33 +8,33 @@ The workflow performs probe-based velocity extraction, turbulence statistics, Re
 
 ## Main Features
 
-- Farneback optical-flow velocity estimation
-- Probe-wise horizontal and vertical velocity extraction
-- Mean and RMS velocity analysis
-- Turbulence intensity and two-dimensional turbulent kinetic energy
-- Reynolds normal and shear stresses
-- Skewness and kurtosis analysis
-- Two-point correlation and autocorrelation
-- Power spectral density and dominant-frequency analysis
-- Mean velocity and vorticity fields
-- Plume-width and spreading analysis
-- Automatic PNG, CSV, MAT, TXT, and GIF generation
+* Farneback optical-flow velocity estimation
+* Probe-wise horizontal and vertical velocity extraction
+* Mean and RMS velocity analysis
+* Turbulence intensity and two-dimensional turbulent kinetic energy
+* Reynolds normal and shear stresses
+* Skewness and kurtosis analysis
+* Two-point correlation and autocorrelation
+* Power spectral density and dominant-frequency analysis
+* Mean velocity and vorticity fields
+* Plume-width and spreading analysis
+* Automatic PNG, CSV, MAT, TXT, and GIF generation
 
 ## Repository Structure
 
-- New2.m - main MATLAB analysis script
-- results/figures - saved analysis plots
-- results/gifs - flow and plume animations
-- results/data - numerical CSV and MATLAB outputs
-- results/RUN_SUMMARY.txt - analysis summary and assumptions
+* New2.m - main MATLAB analysis script
+* results/figures - saved analysis plots
+* results/gifs - flow and plume animations
+* results/data - numerical CSV and MATLAB outputs
+* results/RUN\_SUMMARY.txt - analysis summary and assumptions
 
 ## Requirements
 
-- MATLAB
-- Computer Vision Toolbox
-- Image Processing Toolbox
-- Signal Processing Toolbox
-- Statistics and Machine Learning Toolbox
+* MATLAB
+* Computer Vision Toolbox
+* Image Processing Toolbox
+* Signal Processing Toolbox
+* Statistics and Machine Learning Toolbox
 
 ## Input Video
 
@@ -53,7 +53,118 @@ The raw video is not included in this repository because of file-size considerat
 
 Physical velocity and turbulence quantities depend on the pixel-to-length calibration and the sampled-frame time interval. Without physical calibration, the optical-flow results should be interpreted in pixel-based units.
 
+\## Representative Results
+
+
+
+The following figures and animations were generated automatically by the MATLAB workflow.
+
+
+
+\### Probe Locations
+
+
+
+!\[Probe locations](results/figures/01\_probe\_locations.png)
+
+
+
+\### Probe Velocity Time Series
+
+
+
+!\[Probe velocity time series](results/figures/02\_probe\_velocity\_time\_series.png)
+
+
+
+\### Turbulence Intensity and Turbulent Kinetic Energy
+
+
+
+!\[Turbulence intensity and TKE](results/figures/04\_rms\_tke\_turbulence\_intensity.png)
+
+
+
+\### Reynolds Stresses
+
+
+
+!\[Reynolds stresses](results/figures/05\_reynolds\_stresses.png)
+
+
+
+\### Power Spectral Density
+
+
+
+!\[Power spectral density](results/figures/10\_power\_spectral\_density.png)
+
+
+
+\### Mean Flow, TKE and Vorticity Fields
+
+
+
+!\[Mean flow and vorticity](results/figures/12\_mean\_flow\_tke\_vorticity\_fields.png)
+
+
+
+\### Vorticity RMS and Pseudo-Dissipation
+
+
+
+!\[Vorticity RMS](results/figures/13\_vorticity\_rms\_pseudo\_dissipation.png)
+
+
+
+\### Plume Width and Spreading
+
+
+
+!\[Plume width](results/figures/14\_plume\_width\_and\_spreading.png)
+
+
+
+\### Dimensionless-Number Analysis
+
+
+
+!\[Dimensionless numbers](results/figures/16\_dimensionless\_numbers.png)
+
+
+
+\## Animations
+
+
+
+\### Flow and Vorticity Evolution
+
+
+
+!\[Flow and vorticity animation](results/gifs/flow\_vorticity\_diagnostics.gif)
+
+
+
+\### Plume-Width Evolution
+
+
+
+!\[Plume-width animation](results/gifs/plume\_width\_evolution.gif)
+
+
+
+\## Numerical Data
+
+
+
+The corresponding numerical outputs are available in the \[`results/data`](results/data) directory.
+
+
+
+The complete run settings, assumptions, calibration information, and output summary are available in \[`RUN\_SUMMARY.txt`](results/RUN\_SUMMARY.txt).
+
 ## Author
 
 Ashok Choudhary
 M.S. Research Scholar, IIT Madras
+
