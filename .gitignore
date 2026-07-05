@@ -1,0 +1,27 @@
+﻿# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+*.bak
+*.tmp
+
+# MATLAB generated folders
+slprj/
+codegen/
+
+# Raw videos
+*.mp4
+*.MP4
+*.avi
+*.AVI
+*.mov
+*.MOV
+
+# MATLAB figure files
+*.fig
+
+# Windows and editor files
+Thumbs.db
+.DS_Store
+.vscode/
+*.mat

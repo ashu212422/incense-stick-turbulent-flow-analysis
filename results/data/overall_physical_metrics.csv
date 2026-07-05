@@ -1,0 +1,2 @@
+ReferenceLength_m,KinematicViscosity_m2s,AmbientDensity_kgm3,PlumeDensity_kgm3,CenterlineVelocity_ms,OverallRe,OverallFr,OverallRi,MeanPseudoDissipation_m2s3,ApproxKolmogorovLength_m,ApproxKolmogorovTime_s,PlumeSpreadingRate
+0.013,1.5e-05,1.2,1.06,0.00885087548778931,7.67075875608407,0.0725615676067415,189.926990588313,0.00334541141428106,0.00100220383600989,0.0669608352608625,0.0876313106790328

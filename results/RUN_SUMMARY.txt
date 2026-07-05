@@ -1,0 +1,30 @@
+NEW2 COMPLETE INCENSE-STICK TURBULENCE ANALYSIS
+Generated: 05-Jul-2026 23:49:37
+
+Input video: D:\Codes\new code\AP.mp4
+Original FPS: 30.000000
+Frame interval: 1
+Sample dt: 0.03333333 s
+Optical-flow samples: 445
+Velocity unit: m/s
+Length unit: m
+Metres per pixel: 0.0001
+Probe half-window: 2 px
+
+KEY OVERALL METRICS
+Maximum |mean vertical velocity|: 0.0088508755 m/s
+Maximum probe TKE2D: 6.4825439e-05 m/s^2
+Maximum probe turbulence intensity: 1472.872 %
+Plume spreading rate dw/dz: 0.087631311
+Overall Re: 7.6707588
+Overall Fr: 0.072561568
+Overall Ri: 189.92699
+Approx. mean 2-D pseudo-dissipation: 0.0033454114 m^2/s^3
+Approx. Kolmogorov length: 0.0010022038 m
+Approx. Kolmogorov time: 0.066960835 s
+
+INTERPRETATION LIMITATIONS
+1. Optical flow tracks image-pattern displacement, not automatically the true gas velocity.
+2. Physical velocity and dimensionless numbers depend directly on the accuracy of metresPerPixel and video timing.
+3. TKE2D excludes the out-of-plane velocity fluctuation and therefore is not the complete three-dimensional turbulent kinetic energy.
+4. Vorticity, dissipation, Kolmogorov scales, plume width and entrainment are optical-flow/image-based estimates and require experimental validation.
